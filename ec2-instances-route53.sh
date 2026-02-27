@@ -5,7 +5,7 @@ SUBNET="subnet-0b81d24fb28353d3f"
 HOSTED_ZONE="Z09372402SX8LY0VINKFB"
 DOMAIN="kiranku.online"
 
-APP=("web" "catalogue" "cart" "user" "shipping")
+APP=("web" "catalogue" "cart" "user" "shipping" "payments" "dispatch" "mongodb" "redis" "mysql" "rabbitmq")
 
 for i in "${APP[@]}"
 do
