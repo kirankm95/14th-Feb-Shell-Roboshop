@@ -40,7 +40,7 @@ do
       "ResourceRecordSet": {
         "Name": "${i}.${DOMAIN}",
         "Type": "A",
-        "TTL": 300,
+        "TTL": 1,
         "ResourceRecords": [
           { "Value": "${PRIVATE_IP}" }
         ]
